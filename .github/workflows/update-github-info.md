@@ -1,6 +1,7 @@
 ---
 name: Update GitHub Info
 description: Fetch latest GitHub Blog updates and propose changes to Mona's website
+engine: copilot
 on:
   schedule:
     - cron: daily around 9:00
