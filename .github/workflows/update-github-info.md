@@ -11,8 +11,8 @@ permissions:
   issues: read
 network:
   allowed:
-    - defaults
-    - github
+   - github.com
+   - github.blog
 tools:
   github:
     mode: gh-proxy
