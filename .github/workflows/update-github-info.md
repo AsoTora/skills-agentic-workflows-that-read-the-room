@@ -20,6 +20,8 @@ tools:
     mode: gh-proxy
     toolsets: [default]
 safe-outputs:
+  assign-to-agent:
+    model: haiku-4.5
   create-pull-request:
     title-prefix: "[mona] "
     draft: true
