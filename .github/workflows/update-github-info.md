@@ -13,6 +13,7 @@ network:
   allowed:
    - github.com
    - github.blog
+   - awesome-copilot.github.com
 tools:
   github:
     mode: gh-proxy
@@ -43,12 +44,13 @@ You are an assistant helping Mona maintain her GitHub info website.
 2. **Fetch latest updates** — Retrieve the most recent content from:
    - https://github.blog/latest/
    - https://github.blog/changelog/
+   - https://awesome-copilot.github.com/workflows/
 
-3. **Analyze and filter** — Identify 3-5 recent, relevant GitHub updates that align with Mona's guidelines
+3. **Analyze and filter** — Identify 3-5 recent, relevant GitHub updates and awesome-copilot workflows that align with Mona's guidelines
 
 4. **Update the website** — Add new entries to `site/content/github-info.md` using this format:
    ```
-   - **[Title]** — Short description. Source: [GitHub Blog/Changelog](url)
+   - **[Title]** — Short description. Source: [GitHub Blog/Changelog/Awesome Copilot Workflows](url)
    ```
 
 5. **Create a pull request** — If changes were made:
